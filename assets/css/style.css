@@ -1,3 +1,35 @@
+.navbar {
+  background-color: black;
+  color: white;
+}
+
 .nav-content {
-  width: 90%;
+  width: 85%;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul > li {
+  list-style-type: none;
+}
+
+.nav-links {
+  width: 500px;
+}
+
+.nav-links > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-links > ul > li {
+}
+
+.nav-links > ul > li > a {
+  color: #fff;
 }
