@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
 .navbar {
   background-color: black;
   color: white;
@@ -19,6 +28,7 @@ nav > ul > li {
 
 .nav-links {
   width: 500px;
+  margin-right: -23px;
 }
 
 .nav-links > ul {
@@ -27,9 +37,115 @@ nav > ul > li {
   justify-content: space-around;
 }
 
-.nav-links > ul > li {
-}
-
 .nav-links > ul > li > a {
   color: #fff;
+}
+
+.header {
+  background-image: url(../img/header_panel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  width: 50%;
+  color: white;
+}
+
+.left-content > img {
+  width: 160px;
+}
+
+.left-content > h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: Raleway;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.left-content > p {
+  font-size: 16px;
+  font-family: Raleway;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.btn-light {
+  border: 2px solid white;
+  font-family: OpenSans;
+  font-size: 16px;
+  padding: 5px 30px;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+  font-family: OpenSans;
+  font-size: 20px;
+  padding: 12px;
+  text-align: center;
+  font-weight: 900;
+  background-color: #f5f5f5;
+  margin-bottom: 12px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.text-button {
+  color: white;
+  padding: 12px;
+  background-color: #ff9b51;
+  display: inline-block;
+  width: 100%;
+  font-family: OpenSans;
+  font-size: 15px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.form {
+  background-color: #fff;
+  width: 70%;
+  border-radius: 6px;
+}
+
+.right-content {
+  width: 50%;
+  /* padding-right: 23px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.free {
+  color: #ff9b51;
+}
+
+.inputs-block {
+  margin: 40px;
+}
+
+.inputs-block > input {
+  width: 100%;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.inputs-block > input::placeholder {
+  color: #d6d6d6;
+  font-size: 14px;
 }
