@@ -186,3 +186,66 @@ nav > ul > li {
   color: rgb(204, 204, 204);
   font-size: 40px;
 }
+
+.feature-1 {
+  background-color: #f5f5f6;
+}
+
+.feature-1 > .left-block {
+  width: 10%;
+}
+
+.tab-1,
+.tab-2,
+.tab-3 {
+  width: 100px;
+  height: 100px;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-1 > span,
+.tab-2 > span,
+.tab-3 > span {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.tab-border {
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.active-tab {
+  background-color: #ff8b38;
+}
+
+.centre-block {
+  font-family: OpenSans;
+}
+
+.centre-block > h1 {
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.centre-block > p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.btn-light2 {
+  color: white;
+  font-family: OpenSans;
+  font-size: 16px;
+  padding: 5px 30px;
+  background-color: #ff7a38;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 15px;
+}
