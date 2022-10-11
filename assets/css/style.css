@@ -304,3 +304,20 @@ nav > ul > li {
   font-size: 14px;
   color: #9b9999;
 }
+
+.feature-3-left-block,
+.feature-3-right-block {
+  width: 50%;
+}
+
+.feature-3-left-block > p {
+  padding-bottom: 20px;
+}
+
+.feature-3-right-block > img {
+  width: 80%;
+}
+
+.feature-3 {
+  background-color: #f5f5f5;
+}
